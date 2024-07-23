@@ -1,0 +1,23 @@
+/.vim
+# internal folders
+build/*
+.godot/
+.vscode/*
+godot-cpp/*
+game/android/*
+android_project/*
+game/release/*
+
+# binaries
+*.o
+*.obj
+*.os
+*.so
+*.wasm
+*.dll
+*.exp
+*.lib
+*.dblite
+
+# export files
+*.apk

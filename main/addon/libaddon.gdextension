@@ -1,0 +1,9 @@
+[configuration]
+
+entry_symbol = "addon_init"
+compatibility_minimum = "4.2"
+
+[libraries]
+
+linux.debug.x86_64 = "res://addon/bin/libaddon.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://addon/bin/libaddon.linux.template_release.x86_64.so"
