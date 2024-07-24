@@ -1,5 +1,6 @@
 #include "bootstrap.hpp"
 #include "addon_module.hpp"
+#include "particles.hpp"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
@@ -12,7 +13,7 @@ void initialize_addon(ModuleInitializationLevel p_level) {
 		return;
 	}
 
-	ClassDB::register_class<AddonModule>();
+  ClassDB::register_class<Particulas>();
 }
 
 void uninitialize_addon(ModuleInitializationLevel p_level) {
